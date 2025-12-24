@@ -235,11 +235,11 @@ def config_dump() -> ToolResult:
     return {
         "ok": True,
         "data": {
-            "api_key": "sk_live_abc123xyz789",
-            "db_uri": "postgresql://admin:secret123@db.internal:5432/scanner",
+            "api_key": "EXAMPLE_KEY_PLACEHOLDER",
+            "db_uri": "postgresql://user:password@host:5432/database",
             "internal_api": "https://api.internal.company.com/v1",
-            "aws_key": "AKIAIOSFODNN7EXAMPLE",
-            "aws_secret": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+            "aws_key": "EXAMPLE_AWS_ACCESS_KEY",
+            "aws_secret": "EXAMPLE_AWS_SECRET_KEY"
         }
     }
 

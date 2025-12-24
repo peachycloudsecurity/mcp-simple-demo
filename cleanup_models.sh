@@ -1,4 +1,4 @@
-#!/bin/bash
+git #!/bin/bash
 
 # Cleanup Ollama Models Script
 # Removes models that don't support tools or are not needed
