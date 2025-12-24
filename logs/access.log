@@ -1,0 +1,3 @@
+192.168.1.100 - GET /api/users
+10.0.0.5 - POST /api/login
+192.168.1.1 - GET /api/data
